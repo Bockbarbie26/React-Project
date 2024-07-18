@@ -1,0 +1,64 @@
+@import url(Root.css);
+
+footer{
+    background-color: #333;   
+    padding: 10px 20px;
+    color: white;
+
+    a{
+        color: white;
+    }
+}
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    align-items: center;
+
+    .contact-1{
+        position: inherit; 
+
+        .company{
+            color: var(--primary-color);
+        }
+    }
+
+    .contact-2{
+        position: inherit;
+        display: flex;
+        justify-content: space-between;
+
+        .contact-2-col{
+            padding: 10px;
+            margin: 0;
+
+            form{
+                position: relative;
+            }
+
+            .multiMedia{
+                display: flex;
+                flex-wrap: wrap;
+
+                li{
+                    padding: 5px;
+                }
+            }
+        }
+    }
+    
+    ul{
+        list-style-type: none;
+        padding: 0;
+
+        li{
+            padding: 5px 0px;
+            font-family: var(--primary-text-font);
+        }
+    }
+
+    a:hover{
+        color: var(--primary-color);
+    }
+}

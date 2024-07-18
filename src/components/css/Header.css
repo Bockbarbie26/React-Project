@@ -1,0 +1,37 @@
+@import url(Root.css);
+
+header{
+    background-color: var(--background-color);
+    padding: 10px 20px;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.main-nav{ 
+    ul{
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+        color: #a1a1a1;
+    
+        li{
+            a{
+                text-decoration: none;
+                color: #333;
+            }
+        } 
+    }
+}
+
+.search-bar input{
+    padding: 5px;
+    font-size: 16px;
+}
