@@ -3,3 +3,14 @@
     --primary-color: #fa6f1f;
     --primary-text-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
+
+html{
+    margin: 0;
+    width: 100vw;
+}
+
+body{
+    margin: 5px;
+    width: 100vw;
+    overflow: hidden;
+}

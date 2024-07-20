@@ -1,8 +1,9 @@
 import React from "react"; 
+import '../css/Promotion.css';
 
 const Promotions = () => {
     return (
-        <div>
+        <div className="promotion">
             <h2>Promotions</h2>
             <div>
                 <p>Freeship for bills over 500k</p>
