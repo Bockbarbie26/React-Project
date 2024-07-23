@@ -1,14 +1,14 @@
 import React from "react";
-import './css/Header.css';
 import IconCartShopping from '../assets/icons/Cart-icon';
 import IconMagnifyingGlass from '../assets/icons/Find-icon';
 import IconPerson from "../assets/icons/Avatar-icon";
 import logo from '../assets/images/logo_header.webp';
 import slide1 from '../assets/images/slide_product_1.webp';
+import './css/MainPage.css'
 
 const Header = () => {
     return (
-        <header>
+        <header className="container">
             <div className="top-bar">
                 <div className="logo">
                     <img src={logo} alt="EGA furniture" />
@@ -32,6 +32,7 @@ const Header = () => {
             <div className="banner">
                 <img src={slide1} alt="Furniture sales" />
             </div>
+            {/* Lam slide can 3 the div */}
         </header>
     );
 }

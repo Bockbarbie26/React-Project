@@ -1,17 +1,13 @@
 import React from "react";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import ProductCategory from "./components/ProductCategory";
-import Promotions from "./components/Promotion";
-import CustomerReview from "./components/CustomerReview";
+import MainPage from "./components/MainPage";
 
 const App = () => {
   return (
     <div className="App">
       <Header/>
-      <ProductCategory/>
-      <Promotions/>
-      <CustomerReview/>
+      <MainPage/>
       <Footer/>
     </div>
   );
