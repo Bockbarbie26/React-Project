@@ -149,8 +149,17 @@ header{
 }
 
 .videos{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    .videos-container{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.iframe-link iframe {
+    display: none;
+}
+.iframe-link:hover iframe {
+    display: block;
+    text-align: center;
 }
 
 .review-layout{
