@@ -13,6 +13,7 @@ body{
     /* margin: 5px; */
     /* width: 100vw; */
     /* overflow: hidden; */
-    width: 98vw;
-    margin: auto;   
+    width: 100vw;
+    margin: auto; 
+    overflow-x: hidden;  
 }

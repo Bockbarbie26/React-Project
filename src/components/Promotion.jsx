@@ -15,7 +15,7 @@ const Promotions = () => {
                         <div class="coupon_container-info">
                             <div class="coupon_info_row-1">
                                 <div class="coupon_info-col-11">
-                                    <p id="blur_text">FREESHIP</p>
+                                    <p>FREESHIP</p>
                                     <p>Free ship cho đơn hàng từ 500k</p>
                                     <i class="fa-solid fa-circle-info"></i>
                                 </div>
@@ -35,7 +35,7 @@ const Promotions = () => {
                         </div>
                         <div class="coupon_container-info">
                             <div class="coupon_info_row-1">
-                                <p id="blur_text">FREESHIP</p>
+                                <p>FREESHIP</p>
                                 <p>Free ship cho đơn hàng từ 500k</p>
                                 <i class="fa-solid fa-circle-info"></i>
                             </div>
