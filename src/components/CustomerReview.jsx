@@ -1,11 +1,10 @@
 import React from "react";
-import review from '../assets/images/review.jpg'
-import './css/MainPage.css';
+import review from '../assets/images/review.jpg';
 
 const CustomerReview = () => {
     return (
         <div className="customer-review">
-            <h2>Customers' reviews</h2>
+            <h2>Customers reviews</h2>
             <div>
                 <div className="customer-review-text-image">
                     <img src={review} alt="Đánh giá của khách hàng" />

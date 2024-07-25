@@ -1,5 +1,4 @@
 import React from "react"; 
-import './css/MainPage.css';
 import coupon from '../assets/images/coupon.webp'
 
 const Promotions = () => {

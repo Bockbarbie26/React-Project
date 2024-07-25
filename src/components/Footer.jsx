@@ -5,11 +5,11 @@ import IconZalo from "../assets/icons/Zalo-icon";
 import IconInstagram from "../assets/icons/Instagram-icon";
 import IconYoutube from "../assets/icons/Youtube-icon";
 import IconTiktok from "../assets/icons/Tiktok-icon";
-import './css/MainPage.css';
+import './css/Page.css';
 
 const Footer = () => {
     return (
-        <footer  className="container">
+        <footer>
             <div className="contact">
                 <div className="contact-1">
                     <img src={logoFooter} alt="EGA Furniture" />

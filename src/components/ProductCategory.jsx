@@ -1,5 +1,4 @@
 import React from "react";
-import './css/MainPage.css';
 import bedRoom from '../assets/images/bedroom.png';
 import lamp from '../assets/images/decor_lamp.png';
 import kitchen from '../assets/images/kitchen.webp';

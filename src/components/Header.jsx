@@ -1,25 +1,24 @@
-import React from "react";
 import IconCartShopping from '../assets/icons/Cart-icon';
 import IconMagnifyingGlass from '../assets/icons/Find-icon';
 import IconPerson from "../assets/icons/Avatar-icon";
 import logo from '../assets/images/logo_header.webp';
-import slide1 from '../assets/images/slide_product_1.webp';
-import './css/MainPage.css'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <header className="container">
+        <header>
             <div className="top-bar">
                 <div className="logo">
-                    <img src={logo} alt="EGA furniture" />
+                    <Link to="/"><img src={logo} alt="EGA furniture" /></Link>
                 </div>
                 <nav className="main-nav">
                     <ul>
-                        <li><a href="/products">Sản phẩm</a></li>
-                        <li><a href="/rooms">Phòng</a></li>
-                        <li><a href="/sales">Khuyến mãi</a></li>
-                        <li><a href="/inspires">Góc cảm hứng</a></li>
-                        <li><a href="/shopSystem">Hệ thống cửa hàng</a></li>
+                        {/* Dùng thẻ <Link></Link> của reactRouter */}
+                        <li><Link to="/collections">Sản phẩm</Link></li>
+                        <li><Link to="/rooms">Phòng</Link></li>
+                        <li><Link to="/sales">Khuyến mãi</Link></li>
+                        <li><Link to="/inspires">Góc cảm hứng</Link></li>
+                        <li><Link to="/shopSystem">Hệ thống cửa hàng</Link></li>
                     </ul>
                 </nav>
                 <div className="navbar-icon">
@@ -29,10 +28,6 @@ const Header = () => {
                     <IconCartShopping width='30px' height='30px'/>
                 </div>
             </div>
-            <div className="banner">
-                <img src={slide1} alt="Furniture sales" />
-            </div>
-            {/* Lam slide can 3 the div */}
         </header>
     );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import saleProduct1 from '../assets/images/sale_product_1.webp';
 
 const DiscountProduct = () => {
     return (
@@ -11,44 +12,44 @@ const DiscountProduct = () => {
             </div>
             <div className="discount-products-container">
                 <div className="discount-products-item">
-                    <img src="#" alt="Bộ sofa 2 băng góc phải"/>
+                    <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
-                    <a href="#">Bộ sofa 2 băng góc phải</a>
+                    <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
                 </div>
                 <div className="discount-products-item">
-                    <img src="#" alt="Bộ sofa 2 băng góc phải"/>
+                    <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
-                    <a href="#">Bộ sofa 2 băng góc phải</a>
+                    <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
                 </div>
                 <div className="discount-products-item">
-                    <img src="#" alt="Bộ sofa 2 băng góc phải"/>
+                    <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
-                    <a href="#">Bộ sofa 2 băng góc phải</a>
+                    <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
                 </div>
                 <div className="discount-products-item">
-                    <img src="#" alt="Bộ sofa 2 băng góc phải"/>
+                    <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
-                    <a href="#">Bộ sofa 2 băng góc phải</a>
+                    <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
                 </div>
                 <div className="discount-products-item">
-                    <img src="#" alt="Bộ sofa 2 băng góc phải"/>
+                    <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
-                    <a href="#">Bộ sofa 2 băng góc phải</a>
+                    <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
                 </div>
                 <div className="discount-products-item">
-                    <img src="#" alt="Bộ sofa 2 băng góc phải"/>
+                    <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
-                    <a href="#">Bộ sofa 2 băng góc phải</a>
+                    <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
                 </div>
                 <div className="discount-products-item">
-                    <img src="#" alt="Bộ sofa 2 băng góc phải"/>
+                    <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
-                    <a href="#">Bộ sofa 2 băng góc phải</a>
+                    <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
                 </div>
                 <div className="discount-products-item">
-                    <img src="#" alt="Bộ sofa 2 băng góc phải"/>
+                    <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
-                    <a href="#">Bộ sofa 2 băng góc phải</a>
+                    <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
                 </div>
             </div>
             <div className="all-btn">
