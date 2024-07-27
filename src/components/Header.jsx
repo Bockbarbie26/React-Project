@@ -24,7 +24,13 @@ const Header = () => {
                 <div className="navbar-icon">
                     <input type="text" placeholder="ex: Sofa..." />
                     <IconMagnifyingGlass width='30px' height='30px'/>
-                    <IconPerson width='30px' height='30px'/>
+                    <div className="icon-account">
+                        <IconPerson width='30px' height='30px' className="avatar-icon"/>
+                        <div className="account-action">
+                            <Link className='action-item' to="/account/login">Đăng nhập</Link><br />
+                            <Link className='action-item' to="/account/register">Đăng ký</Link>
+                        </div>
+                    </div>
                     <IconCartShopping width='30px' height='30px'/>
                 </div>
             </div>

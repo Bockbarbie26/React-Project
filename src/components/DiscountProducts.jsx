@@ -15,41 +15,49 @@ const DiscountProduct = () => {
                     <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
                     <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
+                    <p>48,200,000 &#8363;</p>
                 </div>
                 <div className="discount-products-item">
                     <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
                     <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
+                    <p>48,200,000 &#8363;</p>
                 </div>
                 <div className="discount-products-item">
                     <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
                     <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
+                    <p>48,200,000 &#8363;</p>
                 </div>
                 <div className="discount-products-item">
                     <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
                     <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
+                    <p>48,200,000 &#8363;</p>
                 </div>
                 <div className="discount-products-item">
                     <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
                     <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
+                    <p>48,200,000 &#8363;</p>
                 </div>
                 <div className="discount-products-item">
                     <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
                     <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
+                    <p>48,200,000 &#8363;</p>
                 </div>
                 <div className="discount-products-item">
                     <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
                     <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
+                    <p>48,200,000 &#8363;</p>
                 </div>
                 <div className="discount-products-item">
                     <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
                     <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
+                    <p>48,200,000 &#8363;</p>
                 </div>
             </div>
             <div className="all-btn">
