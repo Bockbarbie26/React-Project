@@ -1,23 +1,13 @@
 import React from "react";
 import Footer from "../Footer";
 import Header from "../Header";
-import { Link } from "react-router-dom";
+import BreadCrumb from "../Breadcrumb";
 
 const ShopSystem = () => {
     return (
         <div className="shop-system">
             <Header/>
-            <div className="breadcrumb">
-                <ul>
-                    <li itemScope>    
-                        <Link to="/" target='_self' itemProp='item'>Trang chủ</Link>
-                        <span>&nbsp;/&nbsp;</span>
-                    </li>
-                    <li itemScope>
-                        <Link to="/collections" target='_self' itemProp='item'>Tất cả sản phẩm</Link>
-                    </li>
-                </ul>
-            </div>
+            <BreadCrumb/>
             <div className="container">
                 <h2 className="title-page">Trang chủ</h2>
                 <div>

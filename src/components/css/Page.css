@@ -22,7 +22,8 @@ header{
         display: flex;
 
         .account-action{
-            display: none;
+            /* display: none; */
+            position: absolute;
             border: 1px solid black;
             transform: translateX(-50%);
             background-color: #333;
@@ -30,19 +31,19 @@ header{
             padding: 10px;
             border-radius: 5px;
             z-index: 1;
+            text-align: left;
             
             .action-item{
                 color: white;
                 text-decoration: none;
-                display: block;
                 padding: 5px 0;
             }
 
             .action-item:hover{
                 background-color: #575757;
+                border-radius: 5px;
+                width: inherit;
             }
-
-    
         }
     }
 }
@@ -372,3 +373,68 @@ footer{
         }
     }
 }
+
+.login-container, .register-container{
+    text-align: center;
+}
+
+.login-information, .register-information{
+    margin: 15px;
+
+        .form-group{
+            border: none;
+            text-align: right;
+        }
+
+        label{
+            text-align: left;
+            padding: 20px;
+        }
+
+        input{
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 3px;
+            box-shadow: none;
+        }
+
+        .submit-btn{
+            background-color: var(--primary-color);
+            color: var(--secondary-color);
+            text-decoration: none;
+            border: none;
+            border-radius: 2px;
+        }
+    .social-login{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+        .login-google{
+            background-color: #dd4b39;
+        }
+
+        .login-facebook{
+            background-color: #3b5998;
+        }
+
+        .login-facebook, .login-google{
+            color: var(--secondary-color);
+        
+        }
+
+        button{
+            display: flex;
+            padding: 5px 10px;
+            align-items: center;
+            border: none;
+            border-radius: 3px;
+        }
+
+    }
+    
+    .required-asterisk{
+        color: red;
+    }
+}
+    
