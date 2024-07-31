@@ -1,6 +1,6 @@
 import React from "react";
 import saleProduct1 from '../assets/images/sale_product_1.webp';
-
+import data from '../data.json'
 const DiscountProduct = () => {
     return (
         <div className="discount-products">
@@ -11,7 +11,18 @@ const DiscountProduct = () => {
                 </div>
             </div>
             <div className="discount-products-container">
-                <div className="discount-products-item">
+                {data?.prods?.map((item, key)=>{
+                    return (
+                        <div key={item?.id} className="discount-products-item">
+                    <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
+                    <p>{item?.name}</p>
+                    <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
+                    <p>48,200,000 &#8363;</p>
+                </div>
+                    )
+                })}
+                
+                {/* <div className="discount-products-item">
                     <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
                     <p>KHÁC</p>
                     <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
@@ -52,13 +63,7 @@ const DiscountProduct = () => {
                     <p>KHÁC</p>
                     <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
                     <p>48,200,000 &#8363;</p>
-                </div>
-                <div className="discount-products-item">
-                    <img src={saleProduct1} alt="Bộ sofa 2 băng góc phải"/>
-                    <p>KHÁC</p>
-                    <a href={saleProduct1}>Bộ sofa 2 băng góc phải</a>
-                    <p>48,200,000 &#8363;</p>
-                </div>
+                </div> */}
             </div>
             <div className="all-btn">
                     <button type="button" >Xem tất cả</button>

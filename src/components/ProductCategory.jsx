@@ -4,8 +4,11 @@ import lamp from '../assets/images/decor_lamp.png';
 import kitchen from '../assets/images/kitchen.webp';
 import livingRoom from '../assets/images/living_room.webp';
 import workRoom from '../assets/images/work_room.png';
+// import data from '../data.json'
 
 const ProductCategory = () => {
+    // console.log(data);
+    
     return (
         <div className="product-category">
             <h2>Danh mục sản phẩm</h2>

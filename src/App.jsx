@@ -5,8 +5,8 @@ import ShopSystem from "./components/Page/ShopSystem";
 import MainPage from './components/Page/MainPage';
 import NotFound from "./components/Page/NotFound";
 import Collection from "./components/Collections";
-import Login from "./components/Auth/Login";
-import Register from "./components/Auth/Register";
+import Login from "./components/Page/Login";
+import Register from "./components/Page/Register";
 
 const App = () => {
   return (
