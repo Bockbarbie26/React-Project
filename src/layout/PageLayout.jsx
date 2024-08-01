@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
-import Header from "../components/ComponentLayout/Header";
-import Footer from "../components/ComponentLayout/Footer";
-import BreadCrumb from "../components/ComponentLayout/Breadcrumb";
+import Header from "../components/componentLayout/Header";
+import Footer from "../components/componentLayout/Footer";
+import BreadCrumb from "../components/componentLayout/Breadcrumb";
 
 const PageLayout = () => {
     return (

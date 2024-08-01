@@ -1,8 +1,8 @@
-import banner from '../../assets/images/collection_banner.webp';
-import Promotions from '../homepage/Promotion';
+import banner from '../assets/images/banner.webp';
+import Promotions from '../components/homepage/Promotion';
+import collectionProduct from '../assets/images/collection_product_1.jpg';
+import recentProduct from '../assets/images/recent_product_1.webp';
 import { Link } from 'react-router-dom';
-import collectionProduct from '../../assets/images/collection_product_1.jpg';
-import recentProduct from '../../assets/images/recent_product_1.webp';
 
 const Collection = () => {
     return (

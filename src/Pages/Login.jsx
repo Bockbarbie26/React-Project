@@ -1,4 +1,4 @@
-import BreadCrumb from "../components/ComponentLayout/Breadcrumb";
+import BreadCrumb from "../components/componentLayout/Breadcrumb";
 import {Link} from "react-router-dom";
 
 const Login = () => {

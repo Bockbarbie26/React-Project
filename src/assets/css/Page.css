@@ -469,4 +469,25 @@ footer{
         color: red;
     }
 }
+
+/* Sales */
+
+.sales-img{
+    text-align: center;
+    img{
+        width: 50%;
+    }
+}
+
+.sales-container{
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(5 , 2fr);
     
+    .sales-container-item{
+        img{
+            width: auto;
+            height: auto;
+        }
+    }
+}
