@@ -1,26 +1,12 @@
-import banner from '../assets/images/collection_banner.webp'
-import Footer from './Footer';
-import Header from './Header';
-import Promotions from './Promotion';
+import banner from '../../assets/images/collection_banner.webp';
+import Promotions from '../homepage/Promotion';
 import { Link } from 'react-router-dom';
-import collectionProduct from '../assets/images/collection_product_1.jpg';
-import recentProduct from '../assets/images/recent_product_1.webp';
+import collectionProduct from '../../assets/images/collection_product_1.jpg';
+import recentProduct from '../../assets/images/recent_product_1.webp';
 
 const Collection = () => {
     return (
         <div className='collection'>
-            <Header/>
-            <div className="breadcrumb">
-                <ul>
-                    <li itemScope>    
-                        <Link to="/" target='_self' itemProp='item'>Trang chủ</Link>
-                        <span>&nbsp;/&nbsp;</span>
-                    </li>
-                    <li itemScope>
-                        <Link to="/collections" target='_self' itemProp='item'>Tất cả sản phẩm</Link>
-                    </li>
-                </ul>
-            </div>
             <div className="container">
                 <div className='container-banner'>   
                     <Link to="/"><img src={banner} alt="Banner" /></Link>
@@ -163,7 +149,6 @@ const Collection = () => {
                     </div>
                 </div>
             </div>
-            <Footer/>
         </div>
     );
 }

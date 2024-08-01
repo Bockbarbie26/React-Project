@@ -1,6 +1,6 @@
 import React from "react";
-import saleProduct1 from '../assets/images/sale_product_1.webp';
-import data from '../data.json'
+import saleProduct1 from '../../assets/images/sale_product_1.webp';
+import data from '../../data.json'
 const DiscountProduct = () => {
     return (
         <div className="discount-products">

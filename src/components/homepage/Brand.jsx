@@ -1,8 +1,8 @@
 
-import brand1 from "../assets/images/brand_1.webp";
-import brand2 from "../assets/images/brand_2.webp";
-import brand3 from "../assets/images/brand_3.webp";
-import brand4 from "../assets/images/brand_4.webp";
+import brand1 from "../../assets/images/brand_1.webp";
+import brand2 from "../../assets/images/brand_2.webp";
+import brand3 from "../../assets/images/brand_3.webp";
+import brand4 from "../../assets/images/brand_4.webp";
 
 const Brand = () => {
   return (

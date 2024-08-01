@@ -1,5 +1,5 @@
 import React from "react";
-import review from '../assets/images/review.jpg';
+import review from '../../assets/images/review.jpg';
 
 const CustomerReview = () => {
     return (

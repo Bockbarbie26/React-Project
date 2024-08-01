@@ -1,4 +1,4 @@
-import slide1 from "../assets/images/slide_product_1.webp";
+import slide1 from "../../assets/images/slide_product_1.webp";
 
 const Slider = () => {
   return (

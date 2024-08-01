@@ -1,11 +1,10 @@
 import React from "react";
-import logoFooter from '../assets/images/logo_footer.webp';
-import IconFacebook from "../assets/icons/Facebook-icon";
-import IconZalo from "../assets/icons/Zalo-icon";
-import IconInstagram from "../assets/icons/Instagram-icon";
-import IconYoutube from "../assets/icons/Youtube-icon";
-import IconTiktok from "../assets/icons/Tiktok-icon";
-import './css/Page.css';
+import logoFooter from '../../assets/images/logo_footer.webp';
+import IconFacebook from "../../assets/icons/Facebook-icon";
+import IconZalo from "../../assets/icons/Zalo-icon";
+import IconInstagram from "../../assets/icons/Instagram-icon";
+import IconYoutube from "../../assets/icons/Youtube-icon";
+import IconTiktok from "../../assets/icons/Tiktok-icon";
 
 const Footer = () => {
     return (

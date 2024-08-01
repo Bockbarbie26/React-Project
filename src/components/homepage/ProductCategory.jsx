@@ -1,9 +1,9 @@
 import React from "react";
-import bedRoom from '../assets/images/bedroom.png';
-import lamp from '../assets/images/decor_lamp.png';
-import kitchen from '../assets/images/kitchen.webp';
-import livingRoom from '../assets/images/living_room.webp';
-import workRoom from '../assets/images/work_room.png';
+import bedRoom from '../../assets/images/bedroom.png';
+import lamp from '../../assets/images/decor_lamp.png';
+import kitchen from '../../assets/images/kitchen.webp';
+import livingRoom from '../../assets/images/living_room.webp';
+import workRoom from '../../assets/images/work_room.png';
 // import data from '../data.json'
 
 const ProductCategory = () => {

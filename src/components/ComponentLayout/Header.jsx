@@ -1,7 +1,7 @@
-import IconCartShopping from '../assets/icons/Cart-icon';
-import IconMagnifyingGlass from '../assets/icons/Find-icon';
-import IconPerson from "../assets/icons/Avatar-icon";
-import logo from '../assets/images/logo_header.webp';
+import IconCartShopping from '../../assets/icons/Cart-icon';
+import IconMagnifyingGlass from '../../assets/icons/Find-icon';
+import IconPerson from "../../assets/icons/Avatar-icon";
+import logo from '../../assets/images/logo_header.webp';
 import { Link } from 'react-router-dom';
 
 const Header = () => {

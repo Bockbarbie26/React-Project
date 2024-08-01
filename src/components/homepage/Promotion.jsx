@@ -1,5 +1,5 @@
 import React from "react"; 
-import coupon from '../assets/images/coupon.webp'
+import coupon from '../../assets/images/coupon.webp'
 
 const Promotions = () => {
     return (
@@ -11,7 +11,7 @@ const Promotions = () => {
                         <div class="coupon-list-img">
                             <a href="#"><img src={coupon} alt="Hình mã giảm giá"/></a>
                         </div>
-                        <div class="coupon_container-info">
+                        <div class="coupon-container-info">
                             <div class="coupon_info_row-1">
                                 <div class="coupon_info-col-11">
                                     <p>FREESHIP</p>
@@ -32,7 +32,7 @@ const Promotions = () => {
                         <div class="coupon-list-img">
                             <a href="#"><img src={coupon} alt="Hình mã giảm giá"/></a>
                         </div>
-                        <div class="coupon_container-info">
+                        <div class="coupon-container-info">
                             <div class="coupon_info_row-1">
                                 <p>FREESHIP</p>
                                 <p>Free ship cho đơn hàng từ 500k</p>
@@ -48,7 +48,7 @@ const Promotions = () => {
                         <div class="coupon-list-img">
                             <a href="#"><img src={coupon} alt="Hình mã giảm giá"/></a>
                         </div>
-                        <div class="coupon_container-info">
+                        <div class="coupon-container-info">
                             <div class="coupon_info_row-1">
                                     <p>FREESHIP</p>
                                     <p>Free ship cho đơn hàng từ 500k</p>
@@ -64,7 +64,7 @@ const Promotions = () => {
                         <div class="coupon-list-img">
                             <a href="#"><img src={coupon} alt="Hình mã giảm giá"/></a>
                         </div>
-                        <div class="coupon_container-info">
+                        <div class="coupon-container-info">
                             <div class="coupon_info_row-1">                    
                                 <p>FREESHIP</p>
                                 <p>Free ship cho đơn hàng từ 500k</p>
