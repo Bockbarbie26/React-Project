@@ -25,7 +25,7 @@ const App = () => {
             <Route path="/collections/phong-khach" element={<Collection/>}/>
             <Route path="/collections/phong-ngu" element={<Collection/>}/>
             <Route path="/collections/phong-bep" element={<Collection/>}/>
-          </Route>    
+          </Route>
           <Route path="account/login" element={<Login />}/>
           <Route path="account/register" element={<Register />}/>
           <Route path="shopSystem" element={<ShopSystem/>}/>
