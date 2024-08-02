@@ -2,7 +2,7 @@
     --background-color: #fff;
     --primary-color: #ec720e;
     --secondary-color: white;
-    --primary-text-font: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    --primary-text-font: "Roboto", sans-serif;
 }
 
 html{
