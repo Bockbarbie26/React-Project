@@ -9,30 +9,32 @@ import ShopSystem from "./Pages/ShopSystem";
 import NotFound from "./Pages/NotFound";
 import Collection from "./Pages/Collections";
 import Sales from "./components/sales/Sales";
+import Blog from "./components/blog/Blog";
 
 const App = () => {
   return (
     <>
-    <Router> 
-      <Routes>
-        <Route path="/" element={<MainLayout />}>
-          <Route index element={<MainPage />}/>
-          <Route path="/rooms" element={<MainPage/>}/>
-          <Route element={<NotFound/>}/>
-        </Route>
-        <Route path="/" element={<PageLayout/>}>
-          <Route path="/collections" element={<Collection />}>
-            <Route path="/collections/phong-khach" element={<Collection/>}/>
-            <Route path="/collections/phong-ngu" element={<Collection/>}/>
-            <Route path="/collections/phong-bep" element={<Collection/>}/>
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainLayout />}>
+            <Route index element={<MainPage />} />
+            <Route path="/rooms" element={<MainPage />} />
+            <Route element={<NotFound />} />
           </Route>
-          <Route path="account/login" element={<Login />}/>
-          <Route path="account/register" element={<Register />}/>
-          <Route path="shopSystem" element={<ShopSystem/>}/>
-          <Route path="sales" element={<Sales/>}/>
-        </Route>
-      </Routes>
-    </Router>
+          <Route path="/" element={<PageLayout />}>
+            <Route path="/collections" element={<Collection />}>
+              <Route path="/collections/phong-khach" element={<Collection />} />
+              <Route path="/collections/phong-ngu" element={<Collection />} />
+              <Route path="/collections/phong-bep" element={<Collection />} />
+            </Route>
+            <Route path="account/login" element={<Login />} />
+            <Route path="account/register" element={<Register />} />
+            <Route path="shopSystem" element={<ShopSystem />} />
+            <Route path="sales" element={<Sales />} />
+            <Route path="blog" element={<Blog />} />
+          </Route>
+        </Routes>
+      </Router>
     </>
   );
 }

@@ -17,7 +17,7 @@ const Header = () => {
                         <li><Link to="/collections">Sản phẩm</Link></li>
                         <li><Link to="/rooms">Phòng</Link></li>
                         <li><Link to="/sales">Khuyến mãi</Link></li>
-                        <li><Link to="/inspires">Góc cảm hứng</Link></li>
+                        <li><Link to="/blog">Góc cảm hứng</Link></li>
                         <li><Link to="/shopSystem">Hệ thống cửa hàng</Link></li>
                     </ul>
                 </nav>
@@ -25,7 +25,7 @@ const Header = () => {
                     <input type="text" placeholder="ex: Sofa..." />
                     <IconMagnifyingGlass width='30px' height='30px'/>
                     <div className="icon-account">
-                        <IconPerson width='30px' height='30px' className="avatar-icon"/>
+                        <IconPerson width='30px' height='30px' className="avatar-icon" /*onMouseEnter={delay()}*//>
                         <div className="account-action">
                             <Link className='action-item' to="/account/login">Đăng nhập</Link><br />
                             <Link className='action-item' to="/account/register">Đăng ký</Link>

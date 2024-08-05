@@ -21,9 +21,10 @@ header{
     /* max-width: 100vw; */   
     .navbar-icon{
         display: flex;
-
+        
         .account-action{
             /* display: none; */
+            visibility: hidden;
             position: absolute;
             border: 1px solid black;
             transform: translateX(-50%);
@@ -39,12 +40,17 @@ header{
                 text-decoration: none;
                 padding: 5px 0;
             }
+        }
+        .account-action:hover{
+            visibility: visible;
+            display: block;
+            background-color: #575757;
+            border-radius: 5px;
+            width: inherit;
+        }
 
-            .action-item:hover{
-                background-color: #575757;
-                border-radius: 5px;
-                width: inherit;
-            }
+        .avatar-icon:hover + .account-action{
+            visibility: visible;
         }
     }
 }
@@ -392,9 +398,6 @@ footer{
 
 }
 
-.register-container{
-    
-}
 
 .login-container, .register-container{
     text-align: center;
@@ -488,6 +491,29 @@ footer{
         img{
             width: auto;
             height: auto;
+        }
+    }
+}
+
+.blog-header{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.blog-container {
+
+    
+    display: flex;
+    justify-content: space-between;
+
+    .blog-group{
+
+        .blog-item{
+            img{
+                width: 70%;
+            }
+            display: flex;
+            justify-content: space-between;
         }
     }
 }
