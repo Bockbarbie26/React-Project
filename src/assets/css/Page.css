@@ -1,4 +1,7 @@
 @import url(Root.css);
+@tailwind base;
+@tailwind component; 
+@tailwind utilities;
 
 header{
     max-width: 100vw;
@@ -258,6 +261,7 @@ footer{
 
     a{
         color: white;
+        text-decoration: none;
     }
 }
 

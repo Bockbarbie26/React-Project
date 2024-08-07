@@ -1,5 +1,5 @@
 import React from "react"; 
-import coupon from '../../assets/images/coupon.webp'
+import coupon from '../../assets/images/coupon.webp';
 
 const Promotions = () => {
     return (

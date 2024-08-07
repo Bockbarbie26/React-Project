@@ -7,6 +7,7 @@ const Blog = () => {
         <div className="container">
             <div className="blog-header">
                 <h1>Tin tức</h1>
+                <Button>Click me</Button>
                 <hr />
             </div>
             <div className="blog-container">

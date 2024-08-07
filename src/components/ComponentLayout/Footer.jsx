@@ -38,12 +38,18 @@ const Footer = () => {
                             <li><a href="#">Điều khoản dịch vụ</a></li>
                         </ul>
                     </div>
-                    <div className="contact-2-col">
-                        <h4>ĐĂNG KÝ NHẬN TIN</h4>
-                        <form>
-                            <input type="email" placeholder="Email của bạn" />
-                            <button type="submit">Đăng ký</button>
-                        </form>
+                    <div className="d-flex flex-column align-items-center p-3" style={{backgroundColor: '#333', color: 'white', borderRadius: '10px' }}>
+                        <h4>Đăng ký nhận tin</h4>
+                        <div className="d-flex align-items-center bg-white rounded-pill overflow-hidden">
+                            <input type="email"
+                                className="form-control border-0 round-pill"
+                                placeholder="Nhập địa chỉ Email"
+                            />
+                        </div>
+                        <button className="btn btn-dark round-pill" style={{borderTopRightRadius: '50px', borderBottomRightRadius: '50px' }}>
+                            Đăng ký
+                        </button>
+                    </div>
                         <ul className="multiMedia">
                             <li><a href="https://www.facebook.com"><IconFacebook /></a></li>
                             <li><a href="https://www.instagram.com"><IconInstagram /></a></li>
@@ -51,7 +57,6 @@ const Footer = () => {
                             <li><a href="https://www.youtube.com"><IconYoutube /></a></li>
                             <li><a href="https://www.tiktok.com"><IconTiktok /></a></li>
                         </ul>
-                    </div>
                 </div>
             </div>
         </footer>
